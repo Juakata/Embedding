@@ -1,6 +1,31 @@
 body{
   padding: 3%;
 }
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  padding: 14px 16px;
+  color: #888888;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a : hover{
+  background-color: #111;
+}
+
 .left{
   float: left;
   width: 70%;
@@ -13,6 +38,10 @@ body{
 
 #first-video{
   padding-bottom: 6%;
+}
+
+#column-views{
+  width: 60%;
 }
 
 .right{
@@ -69,16 +98,24 @@ hr{
   float: right;
   vertical-align: middle;
 }
+
 #title{
   float: right;
   vertical-align: top;
   font-size: 16px;
   color: black;
 }
+
 span{
   opacity: 0;
 }
 
+h1{
+  font-size: 25px;
+}
+
 h2{
   color: #8d8e91;
+  padding-bottom: 2%;
+  font-size: 20px;
 }
