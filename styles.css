@@ -26,8 +26,16 @@ body{
   border: none;
   font-weight: bold;
   color: white;
+  float: right;
+  margin-right: 6%;
 }
 
 .like-icon{
   padding-top: 25%;
+}
+
+hr{
+  border-color: #aaa;
+  box-sizing: border-box;
+  width: 100%;
 }
