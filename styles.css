@@ -6,9 +6,28 @@ body{
   width: 70%;
 }
 
+.left-img{
+  float: left;
+  padding-bottom: 2%;
+}
+
+#first-video{
+  padding-bottom: 6%;
+}
+
 .right{
   float: right;
   width: 30%;
+}
+
+.right-preview{
+  float: left;
+  padding-left: 3%;
+  padding-bottom: 9%;
+}
+
+h3{
+  margin-top: 0;
 }
 
 #main-video{
@@ -29,25 +48,31 @@ body{
   float: right;
   margin-right: 6%;
 }
+
 i{
   font-size: 20px;
 }
+
 hr{
-  border-color: #aaa;
+  border-color: #8d8e91;
   box-sizing: border-box;
   width: 98%;
   margin-left: 0;
 }
+
 #like{
   float: left;
 }
+
 #likes{
   float: right;
   vertical-align: middle;
 }
+
 span{
   opacity: 0;
 }
+
 h2{
   color: #8d8e91;
 }
