@@ -8,7 +8,7 @@ body{
 
 .left-img{
   float: left;
-  padding-bottom: 2%;
+  margin-bottom: 0;
 }
 
 #first-video{
@@ -21,13 +21,14 @@ body{
 }
 
 .right-preview{
-  float: left;
-  padding-left: 3%;
-  padding-bottom: 9%;
+  margin-top: 0;
 }
 
-h3{
-  margin-top: 0;
+#preview-title{
+
+  height: 100%;
+  background: black;
+
 }
 
 #main-video{
@@ -68,7 +69,12 @@ hr{
   float: right;
   vertical-align: middle;
 }
-
+#title{
+  float: right;
+  vertical-align: top;
+  font-size: 16px;
+  color: black;
+}
 span{
   opacity: 0;
 }
