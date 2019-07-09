@@ -29,13 +29,25 @@ body{
   float: right;
   margin-right: 6%;
 }
-
-.like-icon{
-  padding-top: 25%;
+i{
+  font-size: 20px;
 }
-
 hr{
   border-color: #aaa;
   box-sizing: border-box;
-  width: 100%;
+  width: 98%;
+  margin-left: 0;
+}
+#like{
+  float: left;
+}
+#likes{
+  float: right;
+  vertical-align: middle;
+}
+span{
+  color: white;
+}
+h2{
+  color: #8d8e91;
 }
