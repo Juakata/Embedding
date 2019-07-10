@@ -2,36 +2,25 @@ body{
   padding: 3%;
 }
 
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: white;
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
   width: 100%;
+  margin: 0;
+  padding: 15PX;
+  overflow: hidden;
   top: 0;
   left: 0;
-  position: fixed;
+  background-color: white;
   z-index: 3000;
   -webkit-box-shadow: 0px 5px 5px -7px #000000, 5px 5px 5px 5px rgba(0,0,0,0);
-box-shadow: 0px 5px 5px -7px #000000, 5px 5px 5px 5px rgba(0,0,0,0);
+  box-shadow: 0px 5px 5px -7px #000000, 5px 5px 5px 5px rgba(0,0,0,0);
+
 }
 
-li{
-  float: left;
-}
 
-li a{
-  display: block;
-  padding: 14px 16px;
-  color: black;
-  text-align: center;
-  text-decoration: none;
-}
 
-li a : hover{
-  background-color: #111;
-}
 
 .left{
   float: left;
