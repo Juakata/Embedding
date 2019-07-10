@@ -6,9 +6,29 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="styles.css">
-
   </head>
+
   <body>
+    <div class="flex-container">
+      <div style="flex-grow: 40">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1280px-Logo_of_YouTube_%282015-2017%29.svg.png" width="100px" height="30px">
+      </div>
+      <div style="flex-grow: 100">
+        <div>
+          <div style="float: left; width:50%;">
+            <input type="text" name="search" placeholder="Search" style="padding: 3px; padding-left: 5px; width:100%;">
+          </div>
+          <div style="background-color: #edeff2; float: left; width:70px; height:30px; border: 1px solid #a3a5a8; border-top-right-radius: 3px;border-bottom-right-radius: 3px">
+            <i class="glyphicon glyphicon-search" style="padding-top: 6px; padding-left: 25px; font-size:14px"></i>
+          </div>
+        </div>
+      </div>
+      <div style="flex-grow: 1; padding-top: 4px;">
+        <i class="glyphicon glyphicon-facetime-video" style="padding-right: 13px"></i>
+        <i class="glyphicon glyphicon-circle-arrow-right" style="padding-right: 13px"></i>
+        <i class="glyphicon glyphicon-bell" style="padding-right: 13px"></i>
+      </div>
+    </div>
     <div id="main">
       <div class="left">
         <div id="main-video">
@@ -24,12 +44,27 @@
               </td>
             </tr>
             <tr>
-              <td>
+              <td id="column-views">
                 <h2>224.174 views</h2>
               </td>
               <td>
-                <i class="glyphicon glyphicon-thumbs-up"></i> 10
-              </td>
+                <div id="like">
+                  <i class="glyphicon glyphicon-thumbs-up"></i><span>..</span>
+                  <div id="likes">10</div>
+                </div>
+
+                <div id="like">
+                  <span>.......</span>
+                  <i class="glyphicon glyphicon-thumbs-down"></i><span>..</span>
+                  <div id="likes">16</div>
+                </div>
+
+                <div id="like">
+                  <span>.......</span>
+                  <i class="glyphicon glyphicon-share-alt"></i><span>..</span>
+                  <div id="likes">SHARE</div>
+                </div>
+
             </tr>
             <tr>
               <td colspan="2">
@@ -51,16 +86,57 @@
       </div>
 
         <div class="right">
-          <div>
-            <img src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-            width="230" height="157">
-          </div>
-          <div>
-            <h3>Flower</h3>
-          </div>
-          <div>
-            <h3>50 views</h3>
-          </div>
+          <table width="100%" >
+            <tr>
+              <td>
+                <p style="padding-top:5%">Up Next</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="left-img" id="first-video">
+                  <img src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  width="168" height="98"><span>..</span>
+                  <div id="title">Flower<br> 10 views</div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <hr>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="left-img" id="first-video">
+                  <img src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  width="168" height="98"><span>..</span>
+                  <div id="title">Flower<br> 10 views</div>
+                </div>
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="left-img" id="first-video">
+                  <img src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  width="168" height="98"><span>..</span>
+                  <div id="title">Flower<br> 10 views</div>
+                </div>
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="left-img" id="first-video">
+                  <img src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  width="168" height="98"><span>..</span>
+                  <div id="title">Flower<br> 10 views</div>
+                </div>
+
+              </td>
+            </tr>
+          </table>
         </div>
     </div>
   </body>
