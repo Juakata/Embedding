@@ -4,8 +4,6 @@ h1{
 body{
   padding: 3%;
 }
-
-
 h2{
   color: #8d8e91;
   font-size: 20px;
@@ -24,11 +22,6 @@ i{
 span{
   opacity: 0;
 }
-
-table{
-  width: 100%
-}
-
 #btn-subscribe{
   background-color: red;
   padding: 2%;
@@ -40,6 +33,11 @@ table{
   float: right;
   margin-right: 6%;
 }
+table{
+  width: 100%
+}
+
+
 #column-views{
   width: 60%;
 }
