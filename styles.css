@@ -1,7 +1,20 @@
 body{
   padding: 3%;
 }
-
+#btn-subscribe{
+  background-color: red;
+  padding: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border: none;
+  font-weight: bold;
+  color: white;
+  float: right;
+  margin-right: 6%;
+}
+#column-views{
+  width: 60%;
+}
 .flex-container{
   display: flex;
   flex-direction: row;
@@ -19,6 +32,24 @@ body{
   box-shadow: 0px 5px 5px -7px #000000, 5px 5px 5px 5px rgba(0,0,0,0);
 
 }
+h1{
+  font-size: 25px;
+}
+
+h2{
+  color: #8d8e91;
+  padding-bottom: 2%;
+  font-size: 20px;
+}
+hr{
+  border-color: #8d8e91;
+  box-sizing: border-box;
+  width: 98%;
+  margin-left: 0;
+}
+i{
+  font-size: 20px;
+}
 
 .left{
   float: left;
@@ -29,31 +60,14 @@ body{
   float: left;
   margin-bottom: 0;
 }
-
-.side-video{
-  padding-bottom: 3%;
+.like{
+  float: left;
 }
 
-#column-views{
-  width: 60%;
-}
-
-.right{
+.likes{
   float: right;
-  width: 30%;
+  vertical-align: middle;
 }
-
-.right-preview{
-  margin-top: 0;
-}
-
-#preview-title{
-
-  height: 100%;
-  background: black;
-
-}
-
 #main{
   padding-top: 2%;
 }
@@ -65,39 +79,29 @@ body{
   padding-right: 2%;
 
 }
+#preview-title{
 
-#btn-subscribe{
-  background-color: red;
-  padding: 2%;
-  padding-left: 4%;
-  padding-right: 4%;
-  border: none;
-  font-weight: bold;
-  color: white;
+  height: 100%;
+  background: black;
+
+}
+.right{
   float: right;
-  margin-right: 6%;
+  width: 30%;
+}
+.right-preview{
+  margin-top: 0;
+}
+.side-video{
+  padding-bottom: 3%;
+}
+span{
+  opacity: 0;
 }
 
-i{
-  font-size: 20px;
+table{
+  width: 100%
 }
-
-hr{
-  border-color: #8d8e91;
-  box-sizing: border-box;
-  width: 98%;
-  margin-left: 0;
-}
-
-.like{
-  float: left;
-}
-
-.likes{
-  float: right;
-  vertical-align: middle;
-}
-
 .title{
   float: right;
   vertical-align: top;
@@ -105,22 +109,6 @@ hr{
   color: black;
 }
 
-span{
-  opacity: 0;
-}
 
-h1{
-  font-size: 25px;
-}
-
-h2{
-  color: #8d8e91;
-  padding-bottom: 2%;
-  font-size: 20px;
-}
-
-table{
-  width: 100%
-}
 
 /* comment */
