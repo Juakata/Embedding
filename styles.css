@@ -30,8 +30,8 @@ body{
   margin-bottom: 0;
 }
 
-#first-video{
-  padding-bottom: 6%;
+.side-video{
+  padding-bottom: 3%;
 }
 
 #column-views{
@@ -89,16 +89,16 @@ hr{
   margin-left: 0;
 }
 
-#like{
+.like{
   float: left;
 }
 
-#likes{
+.likes{
   float: right;
   vertical-align: middle;
 }
 
-#title{
+.title{
   float: right;
   vertical-align: top;
   font-size: 16px;
@@ -118,3 +118,9 @@ h2{
   padding-bottom: 2%;
   font-size: 20px;
 }
+
+table{
+  width: 100%
+}
+
+/* comment */
