@@ -57,6 +57,7 @@ table{
   height: 100%;
   background: black;
 }
+
 .flex-container{
   display: flex;
   flex-direction: row;
