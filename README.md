@@ -9,4 +9,4 @@ CSS and HTML
 Hector Uzquiano https://github.com/Juakata
 Hugo Passos https://github.com/hugopassos
 
-Follow this link to access to the website: https://raw.githack.com/Juakata/Embedding/development/index.html
+Follow this link to access to the website: https://raw.githack.com/Juakata/Embedding/master/index.html
