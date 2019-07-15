@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <div class="flex-container">
+    <nav class="flex-container">
       <div style="flex-grow: 40">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1280px-Logo_of_YouTube_%282015-2017%29.svg.png" width="100" height="30" alt="Main Video">
       </div>
@@ -18,9 +18,9 @@
           <div style="float: left; width:50%;">
             <input type="text" name="search" placeholder="Search" style="padding: 3px; padding-left: 5px; width:100%;">
           </div>
-          <div style="background-color: #edeff2; float: left; width:70px; height:30px; border: 1px solid #a3a5a8; border-top-right-radius: 3px;border-bottom-right-radius: 3px">
-            <i class="glyphicon glyphicon-search" style="padding-top: 6px; padding-left: 25px; font-size:14px"></i>
-          </div>
+          <button style="background-color: #edeff2; float: left; width:70px; height:30px; border: 1px solid #a3a5a8; border-top-right-radius: 3px;border-bottom-right-radius: 3px">
+            <i class="glyphicon glyphicon-search" style="font-size:14px"></i>
+          </button>
         </div>
       </div>
       <div style="flex-grow: 1; padding-top: 4px;">
@@ -28,15 +28,15 @@
         <i class="glyphicon glyphicon-circle-arrow-right" style="padding-right: 13px"></i>
         <i class="glyphicon glyphicon-bell" style="padding-right: 13px"></i>
       </div>
-    </div>
-    <div id="main">
+    </nav>
+    <main id="main">
       <div class="left">
         <div id="main-video">
           <iframe style="width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/ZnuwB35GYMY" allow="accelerometer; autoplay; encrypted-media; gyroscope;
           picture-in-picture" allowfullscreen></iframe>
         </div>
 
-        <div class="">  <table>
+        <table>
             <tr>
               <td colspan="2">
                 <h1>How To Embed A YouTube Video</h1>
@@ -80,8 +80,6 @@
               </td>
             </tr>
           </table>
-
-        </div>
       </div>
 
         <div class="right">
@@ -137,7 +135,9 @@
             </tr>
           </table>
         </div>
-    </div>
+    </main>
+    <footer>
+    </footer>
   </body>
 </html>
 
